@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset = 'utf-8'>
+    <title>1</title>
+  </head>
+  
+  <body>
+      <style>
+          div {
+              background-color: gray;
+          }
+          span{
+              color:red
+          }
+          input{
+              margin: 10px;
+              background-color: green
+          }
+      </style>
+      <script>
+          let div = document.createElement('div');
+          div.innerHTML = 'insideDIV';
+          document.body.append(div);
+          let span = document.createElement('span')
+          span.innerHTML = 'insideSPAN'
+          div.append(span)
+          let input = document.createElement('input')
+          input.placeholder = 'input'
+          div.append(input)
+      </script>
+      </script>
+  </body>
+</html>
